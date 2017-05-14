@@ -1,0 +1,27 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+	<title>zL's Pitaya</title>
+	<style type="text/css">
+		body {
+			background: #000;
+			overflow: hidden;
+		}
+	</style>
+</head>
+<body>
+	<canvas id="MyCanvas"></canvas>
+	<script type="text/javascript" src="index.js"></script>
+	<script type="text/javascript">
+		zlCanvas({
+			ID : "MyCanvas",	//canvas对象的ID
+	    	//WIDTH : document.documentElement.clientWidth,	//canvas对象的宽度
+	    	//HEIGHT : document.documentElement.clientHeight,		//canvas对象的高度
+	    	//LINESTYLE : "rgba(255,255,255, 1)",		//线条的颜色样式	
+	    	//ARCSTYLE : "rgba(255,255,255, 0.05)",	//圆的颜色样式
+	    	POINT : 32	//canvas对象中的随机产生的圆的个数
+		});
+	</script>
+</body>
+</html>
